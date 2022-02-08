@@ -8,13 +8,14 @@ import { Previous } from "./component/previous/index";
 import { Next } from "./component/next/index";
 import styles from "./app.module.css";
 import { useState } from "react";
+import { Links } from "./component/links/index";
 
 function App() {
   const firstJsonItem = 0;
   const [userId, setUserId] = useState(firstJsonItem);
   const jsonlength = json.length - 1;
 
-  const { age, firstName, gender, lastName, city, description, avatar } =
+  const { age, firstName, gender, lastName, city, description, avatar, links } =
     json[userId];
 
   const onNextClick = () => {
@@ -35,13 +36,14 @@ function App() {
 
   return (
     <div className="App">
-      <Avatar className="Avatar" url={avatar} />
+      <Avatar url={avatar} />
       <Gender gender={gender} />
       <Info info={firstName} />
       <Info info={lastName} />
       <Info info={age} />
       <Info info={city} />
       <Description description={description} />
+      <Links links={links} />
       <div className={styles.actions}>
         <Previous onPreviousClick={onPreviousClick} />
         <Next onNextClick={onNextClick} />

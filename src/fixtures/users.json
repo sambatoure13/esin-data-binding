@@ -16,7 +16,7 @@
     "description": "Salut, je m'appelle Yoann, je suis un multi gender et je mange beaucoup de carotte, j'aime la vie et les ours en peluches",
     "gender": "multi",
     "city": "Paris",
-    "links": ["www.google.com"],
+    "links": ["https://www.google.com"],
     "avatar": "https://i.pinimg.com/280x280_RS/7e/c2/97/7ec2972b1bd13dcc7d7f283c18a3bc23.jpg"
   },
   {
@@ -26,7 +26,7 @@
     "description": "Bonjour je suis Samba élève de E2 à ESIN",
     "gender": "male",
     "city": "fresnes",
-    "links": ["www.google.com"],
+    "links": ["https://www.google.com"],
     "avatar": "https://cdn-cf-east.streamable.com/image/l0kibn.jpg?Expires=1642238280&Signature=OuMUCSouLN48GTZ1RyBlIUVZFR4xvPTPLRlmaxIIIuK~6j6uuXv8B-Jr~PMpSObBOZBdSsodrxLG1yRTlF~Q0SJ886OcGY4Ttbof3jMf5u5PjUL7igZmVSFJ41-QBThdqY~MbJsEuRbqFG4L1nkFPCSYyimOwAzqGhtwEh4REYYndBJmprmOzCrcnVJRUuNhJowtsd7htnUUCEDysTak~c8m4K6n-5CBLLGXRQKGlGeadvbBFJ-KRzK6S~n5rKBVJ35qgZBJUOfRNHDwIM-XvTNv6muSGEUcbpR4Qy8gOJAvlHZmZYWTm79PA8E8KQ-ZDiLytY4N3LCBUvmyQECz9w__&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ"
   },
   {
@@ -36,6 +36,7 @@
     "description": "Je suis Amar j'aime l'informatique et voyager",
     "gender": "male",
     "city": "Paris",
+    "links": ["https://www.google.com"],
     "avatar": "https://cdn-icons-png.flaticon.com/512/3231/3231405.png"
   },
   {
